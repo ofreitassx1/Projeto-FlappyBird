@@ -26,18 +26,6 @@ def tocar_musica(arquivo, loop=True):
     pygame.mixer.music.load(arquivo)
     pygame.mixer.music.play(-1 if loop else 0)
 
-
-
-
-
-
-
-
-
-
-
-
-
 class Passaro:
     IMGS = IMAGENS_PASSARO
     #ANIMAÇÕES DA ROTAÇÃO
@@ -285,4 +273,5 @@ def main():
         
         desenhar_tela(tela, passaros, canos, chao, pontos)
 if __name__ == '__main__':
+
     main() 
